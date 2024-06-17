@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The portfolio website of Devanshi Saroj.">
+    <meta name="author" content="Devanshi Saroj">
+    <title>Devanshi Saroj • Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a class="navigation-link active" href="#about">About</a>
+        <a class="navigation-link" href="#projects">Projects</a>
+        <a class="navigation-link" href="#skills">Skills</a>
+        <a class="navigation-link" href="#contact">Contact</a>
+    </div>
+    <div class="top-container">
+        <h1 class="selectable">I'm Devanshi Saroj.</h1>
+        <p class="header-desc selectable">An aspiring <span class="selectable">software developer.</span></p>
+    </div>
+    <div class="middle-container">
+        <div id="about" class="profile">
+            <img class="profile-img" src="My photo.jpeg" alt="profile-img">
+            <h2 class="greeting selectable">Hello.</h2>
+            <p class="about selectable">
+                I'm a B.Tech student at the Indian Institute of Engineering Science and Technology, Shibpur,
+                majoring in Information Technology. I have a passion for programming and have worked on several
+                projects involving machine learning, digital communication, and web development.
+            </p>
+        </div>
+        <hr>
+        <div class="education">
+            <h2 class="edu-header selectable">My education.</h2>
+            <div class="box-1 box">
+                <h3 class="selectable">Class X</h3>
+                <h5 class="year selectable">2017 - 2018</h5>
+                <div class="school selectable">Dehradun Public School,<br>Ghaziabad, UP, India.<br>Percentage: 88.2%</div>
+            </div>
+            <div class="box-2 box">
+                <h3 class="selectable">Class XII</h3>
+                <h5 class="year selectable">2019 - 2020</h5>
+                <div class="school selectable">Dehradun Public School,<br>Ghaziabad, UP, India.<br>Percentage: 82%</div>
+            </div>
+            <div class="box-3 box">
+                <h3 class="selectable">B.Tech</h3>
+                <h5 class="selectable">Information Technology</h5>
+                <h5 class="year selectable">2021 - Present</h5>
+                <div class="school selectable">Indian Institute of Engineering Science and Technology,<br>Shibpur, WB, India.<br>CGPA: 7.41</div>
+            </div>
+        </div>
+        <hr>
+        <div id="projects" class="projects">
+            <h2 class="projects-header selectable">My projects.</h2>
+            <div class="project">
+                <h3 class="selectable">Data-Driven Credit Risk Assessment</h3>
+                <p class="selectable">Created a Python-based credit risk model using machine learning, optimizing lending decisions and reducing default risks for financial institutions.</p>
+                <a href="https://github.com/DevanshiSaroj/Loan_Prediction.git" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3 class="selectable">Binary LDPC Codes for Digital Communication</h3>
+                <p class="selectable">Collaborated with a team to implement and analyze an advanced decoding algorithm for Binary LDPC Codes, improving error correction and data transmission.</p>
+                <a href="https://github.com/DevanshiSaroj/LDPC-Code.git" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3 class="selectable">E-Ticket Reservation System</h3>
+                <p class="selectable">Designed and developed an E-Ticket Reservation System using Java and MySQL, featuring secure gateways and user profiles for personalized booking experiences.</p>
+                <a href="https://github.com/DevanshiSaroj/Java-Project.git" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+        <hr>
+        <div id="skills" class="skill-levels">
+            <h2 class="skill-levels-header selectable">My skills.</h2>
+            <ul>
+                <li>
+                    <img class="skill-logo" src= "python.png" alt="python">
+                    <h3>Python</h3><span class="bar"><span class="python"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="cpp.png" alt="c-plus-plus">
+                    <h3>C++</h3><span class="bar"><span class="cpp"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="java.png" alt="java">
+                    <h3>Java</h3><span class="bar"><span class="java"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="html.png" alt="html5">
+                    <h3>HTML</h3><span class="bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="css.png" alt="css3">
+                    <h3>CSS</h3><span class="bar"><span class="css"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="javascript.png" alt="javascript">
+                    <h3>JavaScript</h3><span class="bar"><span class="javascript"></span></span>
+                </li>
+                <li>
+                    <img class="skill-logo" src="mysql.png" alt="mysql">
+                    <h3>MySQL</h3><span class="bar"><span class="mysql"></span></span>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div id="contact" class="contact-me">
+            <h2 class="selectable">Get In Touch</h2>
+            <h3 class="selectable">Let's connect and create something great together.</h3>
+            <p class="selectable">Feel free to reach out to me for collaboration or just a friendly chat.</p>
+            <a class="btn" href="mailto:saroj.devanshi@gmail.com" target="_blank">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/devanshi-saroj-27b28b228" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/DevanshiSaroj" target="_blank">GitHub</a>
+        <p class="copyright">© 2024 Devanshi Saroj. All rights reserved.</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
